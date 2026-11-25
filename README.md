@@ -1,6 +1,6 @@
 # ServeRest: testes de API com Playwright e Postman/Newman
 
-![Testes de API](https://github.com/SEU-USUARIO/qa-api-serverest/actions/workflows/api-tests.yml/badge.svg)
+![Testes de API](https://github.com/jr-silva-dev/qa-api-serverest/actions/workflows/api-tests.yml/badge.svg)
 
 Testes automatizados da API [ServeRest](https://serverest.dev), uma API brasileira de treino com Swagger (usuários, login, produtos e carrinhos). O mesmo domínio é coberto de duas formas:
 
