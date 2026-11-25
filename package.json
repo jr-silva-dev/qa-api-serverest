@@ -1,0 +1,18 @@
+{
+  "name": "qa-api-serverest",
+  "version": "1.0.0",
+  "description": "Testes de API do ServeRest com Playwright (request) e Postman/Newman",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:newman": "newman run postman/serverest.postman_collection.json --reporters cli,htmlextra --reporter-htmlextra-export newman-report/report.html",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.10",
+    "newman": "^6.2.3",
+    "newman-reporter-htmlextra": "^1.23.1",
+    "typescript": "^7.0.2"
+  }
+}
